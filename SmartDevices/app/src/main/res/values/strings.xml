@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Smart D</string>
+    <string name="preference_file_name">bms Preferences</string>
+</resources>

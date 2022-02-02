@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemperatureActivity">
+
+   <TextView
+       android:id="@+id/txtTemp"
+       android:layout_width="110dp"
+       android:layout_height="40dp"
+       android:text="Temperature:"
+       android:textStyle="bold"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="30dp">
+   </TextView>
+    <TextView
+        android:id="@+id/txtHum"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="Humidity:"
+        android:layout_below="@+id/txtTemp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtsound"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="Sound:"
+        android:layout_below="@+id/txtHum"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtValTemp"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/txtTemp"
+        tools:ignore="UnknownId">
+    </TextView>
+    <TextView
+        android:id="@+id/txtValHum"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/txtHum"
+        android:layout_below="@id/txtValTemp"
+        tools:ignore="UnknownId">
+    </TextView>
+    <TextView
+        android:id="@+id/txtValSound"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_toRightOf="@+id/txtsound"
+        android:layout_below="@id/txtValHum"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+ <Button
+     android:id="@+id/btnCheck"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Check Temperature and Humidity"
+     android:layout_below="@id/txtValSound"
+     android:layout_marginTop="50dp"
+     android:background="@color/colorPrimary">
+
+ </Button>
+
+
+</RelativeLayout>

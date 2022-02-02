@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1066662117643",
+    "firebase_url": "https://iot-6f673-default-rtdb.firebaseio.com",
+    "project_id": "iot-6f673",
+    "storage_bucket": "iot-6f673.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066662117643:android:c310fb0f67010baf78620e",
+        "android_client_info": {
+          "package_name": "com.satheeshan.smartdevices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066662117643-ej18bndlghqh6jma1p3nps310d5i80kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRfi_GBI_OphWmCgT3ENCAegT_1nw_NYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066662117643-ej18bndlghqh6jma1p3nps310d5i80kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

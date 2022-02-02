@@ -1,4 +1,4 @@
-firebase = firebase.FirebaseApplication('https://iot-6f673-default-rtdb.firebaseio.com/',None)
+firebase = firebase.FirebaseApplication('https://iot-6f673-default-rtdb.firebaseio.com/',None)//to paste firebse link to store the data
 servo = Servo(25)
 try:
     while True:

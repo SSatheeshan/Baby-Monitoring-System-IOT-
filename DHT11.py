@@ -3,7 +3,7 @@ from time import sleep
 from firebase import firebase
 import sys
 import Adafruit_DHT
-firebase = firebase.FirebaseApplication('https://iot-6f673-default-rtdb.firebaseio.com/', None)
+firebase = firebase.FirebaseApplication('https://iot-6f673-default-rtdb.firebaseio.com/', None)//to paste firebase link to store the data
 firebase.put("/", "/temp", "0.00")
 firebase.put("/", "/humidity", "0.00")
 while True:
